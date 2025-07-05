@@ -28,6 +28,10 @@
     font-size: 18px;
 }
 
+.text-center{
+    align-items: center;
+}
+
 /* Header Styles */
 .header{
 background-image: url('../images/developers.png'), url('../images/back.png');
@@ -141,13 +145,16 @@ main{
     margin: 0 auto;
 }
 
-/* About styles */
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
+/* About styles */
 .about{
     padding: 80px 160px;
     background-color: #FFF8F3;
     text-align: center;
-    margin: 130px 0px;
 }
 
 .about-items{
@@ -163,4 +170,29 @@ main{
     font-size: 20px;
     font-weight: bold;
     margin-top: -10px;
+}
+
+/* Skills */
+.skills-head{
+    text-align: center;
+    padding:0px 100px;
+    margin-bottom: 50px;
+}
+
+.all-skills{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.skill{
+    width: 260px;
+    height: 300px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(112, 112, 112, 0.3);
+}
+
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
 }
