@@ -11,11 +11,11 @@
 .dark-1{
     color: #181818;
 }
-.dark-2{
+.dark-2, .resume-title, .edu-experience-title{
     color: #474747;
 }
 
-.dark-3{
+.dark-3,.edu-experience-sub-title, .edu-experience-description{
     color: #757575;
 }
 
@@ -28,8 +28,8 @@
     font-size: 18px;
 }
 
-.text-center{
-    align-items: center;
+.text-center {
+  text-align: center;
 }
 
 /* Header Styles */
@@ -114,7 +114,7 @@ nav li a{
    margin-top: 30px;
 }
 
-.content-btn button{
+.content-btn, .download-btn button{
     width: 200px;
     height: 64px;
     font-size: 20px;
@@ -195,4 +195,35 @@ main section{
 .skill-title{
     font-size: 20px;
     font-weight: bold;
+}
+
+
+/* Resume Styles */
+
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.resume-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.edu-experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+.edu-experience-sub-title{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+
+.resume-btn{
+    margin-top: 50px;
 }
