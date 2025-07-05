@@ -7,23 +7,7 @@
     "wdth" 100;
 }
 
-header{
-background-image: url('../images/developer.png'), url('../images/header_bg.png');
-
-background-repeat: no-repeat;
-background-position: top left, bottom right;
-margin: 38px 0 25px 23px;
-
-
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 130px 0px 230px;
-}
-
+/*  Shared Styles */
 .dark-1{
     color: #181818;
 }
@@ -34,6 +18,38 @@ nav{
 .dark-3{
     color: #757575;
 }
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.section-description{
+    font-size: 18px;
+}
+
+/* Header Styles */
+.header{
+background-image: url('../images/developers.png'), url('../images/back.png');
+background-repeat: no-repeat;
+background-position: top left, bottom right;
+margin: 20px 0px 25px 30px;
+background-color: #FFF8F3;
+
+}
+
+
+/* Nav Styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    padding: 0px 130px 0px 230px;
+}
+
+
 .nav-logo{
     color: #FD6E0A;
 }
@@ -66,6 +82,8 @@ nav li a{
     border-radius: 5px;
 }
 
+
+/* Banner Styles */
 .banner {
     display: flex;
     justify-content: space-between;
@@ -117,3 +135,32 @@ nav li a{
     /* height: 676px; */
 }
 
+/* Main Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About styles */
+
+.about{
+    padding: 80px 160px;
+    background-color: #FFF8F3;
+    text-align: center;
+    margin: 130px 0px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-title{
+   font-size: 20px;
+}
+
+.about-desc{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -10px;
+}
