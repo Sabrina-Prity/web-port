@@ -114,14 +114,14 @@ nav li a{
    margin-top: 30px;
 }
 
-.content-btn, .download-btn button{
+.content-btn button, .download-btn button{
     width: 200px;
     height: 64px;
     font-size: 20px;
     border-radius: 5px;
 }
 
-.download-cv{
+.download-cv, .resume-btn, .sumit-btn{
     background-color: #FD6E0A;
     color: white;
     margin-right: 30px;
@@ -226,4 +226,43 @@ main section{
 
 .resume-btn{
     margin-top: 50px;
+}
+
+/* Footer Style */
+
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+
+}
+.footer-column{
+    width: 50%;
+}
+
+.footer-icon img{
+    margin-right: 20px;
+}
+
+.footer-column form, input, textarea{
+    display: block;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.footer-column input{
+    width: 450px;
+    height: 50px;
+    padding: 10px 30px;
+    color: #474747;
+    font-size: 20px;
+}
+
+.footer-column textarea{
+    width: 450px;
+    height: 150px;
+    padding: 10px 30px;
+    color: #474747;
+    font-size: 20px;
 }
